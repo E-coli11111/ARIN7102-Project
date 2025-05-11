@@ -22,6 +22,8 @@ options:
   -m {textrank,bert,llm}, --method {textrank,bert,llm}
                         Method to use for keyword extraction: textrank, bert, or llm.
 ```
+You may set the environment variable `API_KEY` to use your own API key
+
 ```
 keyword
 ├─ bert.py
